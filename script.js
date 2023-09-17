@@ -48,9 +48,9 @@ button.addEventListener('click', function (e) {
         result.style.backgroundColor = 'red';
     }
 
-    // fullName.value = '';
-    // age.value = '';
-    // heightft.value = '';
-    // heightinch.value = '';
-    // weight.value = '';
+    fullName.value = '';
+    age.value = '';
+    heightft.value = '';
+    heightinch.value = '';
+    weight.value = '';
 })

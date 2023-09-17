@@ -54,6 +54,14 @@ body {
     border-radius: 15px;
     padding: 8px;
     margin: 10px;
+    transition-duration: 0.4s;
+
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
 }
 
 .result {
