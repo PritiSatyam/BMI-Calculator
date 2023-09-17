@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+}
+
+.head {
+    font-size: 2rem;
+}
+
+.form {
+    display: flex;
+    font-size: 1.2rem;
+    /* border: 1px solid rgb(195, 211, 49); */
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.form-info {
+    width: 20%;
+    background-color: #ECEE81;
+    justify-content: center;
+}
+
+.container>input {
+    height: 30px;
+    width: 50%;
+    font-size: medium;
+    /* margin: 40px auto; */
+}
+
+.container {
+    margin: 10px 20px;
+}
+
+.age-container>label {
+    margin-right: 15px;
+}
+
+.name-container {
+    margin-top: 40px;
+}
+
+#heightft {
+    width: 20%;
+}
+
+#heightinch {
+    width: 20%;
+}
+
+.btn {
+    font-size: 1.5rem;
+    border: 2px solid #8DDFCB;
+    background-color: #82A0D8;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.result {
+    font-size: 2rem;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+
+.results>h5 {
+    font-size: 1.9rem;
+    /* margin-top: 0px; */
+    margin-bottom: 0px;
+}
+
+.bar-container {
+    display: grid;
+    grid-template-rows: 35px;
+    grid-template-columns: 17fr 13fr 10fr 20fr;
+    gap: 0px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.bar {
+    height: 35px;
+    text-align: right;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(24, 3, 17);
+    /* margin-top: 5px; */
+    padding: 5px;
+
+}
+
+.yellow {
+    background-color: yellow;
+
+}
+
+.green {
+    background-color: green;
+
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.final-result {
+    /* border: 2px solid #82A0D8; */
+    display: inline-block;
+    width: 35%;
+    height: 120px;
+    color: white;
+
+}

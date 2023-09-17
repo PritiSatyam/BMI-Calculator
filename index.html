@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="heading">
+        <div class="head">
+            <h1 class="headh">BMI Calculator</h1>
+        </div>
+    </section>
+    <section class="form">
+        <div class="form-info">
+
+            <!-- <h1>Hello Form</h1> -->
+
+            <form name="myForm" action="" method="get" id="form-data">
+                <div class="name-container container">
+                    <label for="fname">Name :</label>
+                    <input type="text" id="fname" name="fname" placeholder="Full Name">
+                </div>
+                <br>
+                <div class="age-container container">
+                    <label for="age">Age : </label>
+                    <input type="number" min="1" id="age" name="age" placeholder="Age in years">
+                </div>
+                <br>
+                <div class="height-container container">
+                    <label for="heightft">Height :</label>
+                    <input type="number" min="1" id="heightft" name="heightft" placeholder="feet"> <span>:</span>
+                    <input type="number" min="1" id="heightinch" name="heightinch" placeholder="inch">
+                </div>
+                <br>
+                <div class="weight-container container">
+                    <label for="weight">Weight :</label>
+                    <input type="number" id="weight" name="weight" min="1" placeholder="weight in kg">
+                </div>
+                <br>
+                <input type="submit" class="btn" value="Calculate">
+            </form>
+        </div>
+    </section>
+    <section class="result-section">
+        <div class="result">
+            <h4>
+                Result :
+            </h4>
+            <div class="results">
+                <h5>Your Result will be Shown Below</h5>
+                <div class="bar-container">
+                    <div class="yellow bar">Under Weight less than 18.5</div>
+                    <div class="green bar">Normal <span>
+                            less than </span> 25</div>
+                    <div class="orange bar">Over Weight less than 30</div>
+                    <div class="red bar">Obesity greater than 30 </div>
+                </div>
+                <p class="final-result"></p>
+            </div>
+        </div>
+    </section>
+    <!-- <script>
+        const fullName = document.querySelector('.head');
+        console.log(fullName);
+    </script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
