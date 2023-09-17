@@ -117,8 +117,55 @@ body {
 .final-result {
     /* border: 2px solid #82A0D8; */
     display: inline-block;
-    width: 35%;
+    width: 45%;
     height: 120px;
     color: white;
 
+}
+
+@media(max-width:768px) {
+
+    .form-info {
+        width: 80%;
+
+    }
+
+    .container>input {
+        height: 20px;
+        width: 60%;
+        font-size: medium;
+        /* margin: 40px auto; */
+    }
+
+    .bar-container {
+        width: 80%;
+        margin-left: 10%;
+
+    }
+
+    .result {
+        font-size: 1.5rem;
+        margin-top: 8px;
+        font-weight: bolder;
+    }
+
+    .results>h5 {
+        font-size: 1.2rem;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .bar {
+        height: 20px;
+        font-size: 0.5rem;
+    }
+
+    .final-result {
+        width: 45%;
+        height: 80px;
+        color: white;
+        font-size: 1rem;
+        justify-items: center;
+        text-align: center;
+    }
 }
